@@ -1,0 +1,26 @@
+{
+  "name": "no-if-validator",
+  "subdomain": "no-if-validator",
+  "description": "no-if-validator",
+  "version": "1.0.0-0",
+  "license": "UNLICENSED",
+  "scripts": {
+    "test": "jest"
+  },
+  "engines": {
+    "node": "0.8.x"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-jest": "^15.0.0",
+    "babel-polyfill": "^6.13.0",
+    "babel-preset-es2015": "*",
+    "jest": "*",
+    "jest-cli": "^15.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tmenos3/no-if-validator.git",
+    "private": false
+  }
+}
