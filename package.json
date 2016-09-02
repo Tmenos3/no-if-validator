@@ -4,27 +4,34 @@
   "description": "no-if-validator",
   "version": "1.0.0-0",
   "license": "UNLICENSED",
+  "author": "Tmenos3",
+  "contributors": [
+    "Facundo La Rocca",
+    "Facundo Cacho",
+    "Pablo Rodriguez"
+  ],
   "scripts": {
     "test": "jest"
   },
   "engines": {
-    "node": "0.8.x"
+    "node": ">=0.8"
   },
+  "main": "index.js",
   "devDependencies": {
     "babel-cli": "^6.11.4",
     "babel-jest": "^15.0.0",
     "babel-polyfill": "^6.13.0",
     "babel-preset-es2015": "*",
-    "jest": "*",
-    "jest-cli": "*"
+    "jest": "^15.1.1",
+    "jest-cli": "^15.1.1"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/Tmenos3/no-if-validator.git",
     "private": false
   },
-  "dependencies": {
-    "jest": "^15.1.1",
-    "jest-cli": "^15.1.1"
-  }
+  "keywords": [
+    "javascript",
+    "validator"
+  ]
 }
