@@ -15,7 +15,7 @@ import NotNullOrUndefinedCondition from './src/NotNullOrUndefinedCondition';
 import RegexCondition from './src/RegexCondition';
 import ValidMailCondition from './src/ValidMailCondition';
 
-module.exports = [
+module.exports = {
     Validator,
     Condition,
     CompareToCondition,
@@ -32,4 +32,4 @@ module.exports = [
     NotNullOrUndefinedCondition,
     RegexCondition,
     ValidMailCondition
-]
+};
