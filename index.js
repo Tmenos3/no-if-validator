@@ -1,19 +1,19 @@
-import Validator from './src/Validator';
-import Condition from './src/Condition';
-import CompareToCondition from './src/CompareToCondition';
-import CustomCondition from './src/CustomCondition';
-import EqualCondition from './src/EqualCondition';
-import GreaterOrEqualCondition from './src/GreaterOrEqualCondition';
-import GreaterCondition from './src/GreaterCondition';
-import HasNotBlankSpacesCondition from './src/HasNotBlankSpacesCondition';
-import InstanceOfCondition from './src/InstanceOfCondition';
-import IsNumberCondition from './src/IsNumberCondition';
-import IsStringCondition from './src/IsStringCondition';
-import LessOrEqualCondition from './src/LessOrEqualCondition';
-import LessCondition from './src/LessCondition';
-import NotNullOrUndefinedCondition from './src/NotNullOrUndefinedCondition';
-import RegexCondition from './src/RegexCondition';
-import ValidMailCondition from './src/ValidMailCondition';
+var Validator = require('./src/Validator');
+var Condition = require('./src/Condition');
+var CompareToCondition = require('./src/CompareToCondition');
+var CustomCondition = require('./src/CustomCondition');
+var EqualCondition = require('./src/EqualCondition');
+var GreaterOrEqualCondition = require('./src/GreaterOrEqualCondition');
+var GreaterCondition = require('./src/GreaterCondition');
+var HasNotBlankSpacesCondition = require('./src/HasNotBlankSpacesCondition');
+var InstanceOfCondition = require('./src/InstanceOfCondition');
+var IsNumberCondition = require('./src/IsNumberCondition');
+var IsStringCondition = require('./src/IsStringCondition');
+var LessOrEqualCondition = require('./src/LessOrEqualCondition');
+var LessCondition = require('./src/LessCondition');
+var NotNullOrUndefinedCondition = require('./src/NotNullOrUndefinedCondition');
+var RegexCondition = require('./src/RegexCondition');
+var ValidMailCondition = require('./src/ValidMailCondition');
 
 module.exports = {
     Validator,
